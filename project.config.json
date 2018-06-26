@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "0.0.1",
 	"appid": "wx123722ffef9829c2",
-	"projectname": "2048",
+	"projectname": "mini-game-test",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
