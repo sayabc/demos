@@ -8,6 +8,9 @@
 |----------------|:--------------:|-------------:|
 |     小程序     |      xcx       | 2018.09.03   |
 
+### logs
+1. branch xcx 更新分享模板项目 (2018.9.4);
+
 
 ~~# goods~~
 ~~There is some wonderful goods for sale!~~
