@@ -1,0 +1,8 @@
+
+@import './util-css/common';
+@import './util-css/bootstrap_icon';
+@import './util-css/weui.wxss';
+
+view {
+  box-sizing: border-box;
+}

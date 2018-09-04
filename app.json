@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/stage/stage",    
+    "pages/template/template",
+    "pages/preview/preview",
+    "pages/demo/list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "#fff"
+  }
+}

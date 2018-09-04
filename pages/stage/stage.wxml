@@ -1,0 +1,16 @@
+<!--pages/stage/stage.wxml-->
+<text>具体模板制作页面 stage</text>
+
+<view style='text-align: center; margin-top: 30px;'>
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="{{item}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+		disabled="{{disabled}}" bindtap="primary" bindtap="handleJump" style='margin-top: 20px'> 做好了，预览 </button>

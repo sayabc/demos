@@ -1,0 +1,13 @@
+<!--pages/preview/preview.wxml-->
+<text>分享进来的预览页面和制作模板后的原来页面</text>
+
+<view wx:if="{{templateType}}">
+  <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+		disabled="{{disabled}}" bindtap="primary" bindtap="handleJump"> 我真棒，我要分享出去 </button>
+</view>
+<view wx:else>
+
+    <button  wx:if="{{canIUse}}" type="primary" size="{{primarySize}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo"> 真好看，我也要做一个</button>
+    <view wx:else>请升级微信版本</view>
+</view>
+
